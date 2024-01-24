@@ -1,0 +1,229 @@
+/* ========================= universal selector start =========================*/
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: "Catamaran", sans-serif;
+    font-size: 16px;
+}
+
+/* ========================= /universal selector end =========================*/
+
+/* ========================= universal css start ========================= */
+.text-orange {
+    color: #ea512e;
+}
+
+.text-black {
+    color: #1b0238,
+}
+
+.text-silver {
+    color: #6b6b84;
+}
+
+.bg-orange {
+    background: #EA512E;
+}
+
+.bg-yellow {
+    background: #F5890D;
+}
+
+.top-4 {
+    top: 4%;
+}
+
+.right-4 {
+    top: 4%;
+    right: 4%;
+}
+
+.bottom-4 {
+    bottom: 4%;
+}
+
+.bottom-right-4 {
+    bottom: 0%;
+    right: 4%;
+}
+
+.top-10 {
+    top: 10%;
+}
+
+.start-10 {
+    left: 10%;
+}
+
+.top-20 {
+    top: 20%;
+}
+
+.mt-10 {
+    margin-top: 100px;
+}
+
+.mt-15 {
+    margin-top: 150px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-200 {
+    margin-top: 200px;
+}
+
+.fs-20 {
+    font-size: 40px;
+}
+
+.fs-30 {
+    font-size: 45px;
+}
+
+.fs-40 {
+    font-size: 50px;
+}
+
+.fs-50 {
+    font-size: 55px;
+}
+
+.fs-60 {
+    font-size: 60px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.btn {
+    color: #fff;
+    display: inline-block;
+    padding: 10px 35px;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: 0.5s ease;
+    position: relative;
+    background: #EA512E;
+}
+
+.btn:hover {
+    color: #fff;
+    background: #f5890d;
+}
+
+p {
+    line-height: 1.8;
+    color: #6b6b84;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    color: #1b0238;
+    font-family: "Catamaran", sans-serif;
+    font-weight: bold;
+
+}
+
+/* ========================= /universal css end ========================= */
+
+/* ========================= Banner section start ========================= */
+.banner {
+    width: 100%;
+    height: 700px;
+    background: url(../img/main-banner-bg.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.btn-2 {
+    color: #fff;
+    display: inline-block;
+    padding: 10px 35px;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: 0.5s ease;
+    position: relative;
+    background: #F5890D;
+}
+
+.btn-2:hover {
+    color: #fff;
+    background: #EA512E;
+}
+
+.shape-1 {
+    top: 3.5%;
+    left: .7%;
+    animation: move 2s linear infinite alternate;
+}
+
+.shape-2 {
+    top: 3.5%;
+    right: 50%;
+    animation: move2 2s linear infinite alternate;
+}
+
+.shape-3 {
+    bottom: 3.5%;
+    left: .7%;
+    z-index: 9;
+    animation: move 2s linear infinite alternate;
+}
+
+.shape-4 {
+    bottom: 0%;
+    z-index: 9;
+    right: 50%;
+    animation: move3 2s linear infinite alternate;
+}
+
+/* ========================= /Banner section end ========================= */
+
+
+
+
+/* ========================= ANIMATION DIMENSIONS ========================= */
+@keyframes move {
+    0% {}
+
+    100% {
+        left: 4%;
+    }
+}
+
+@keyframes move2 {
+    0% {}
+
+    100% {
+        right: 54%;
+    }
+}
+
+@keyframes move3 {
+    0% {}
+
+    100% {
+        bottom: 4%;
+    }
+}
+
+
+
+
+
+
+
+/* ========================= RESPONSIVE DIMENSIONS ========================= */
