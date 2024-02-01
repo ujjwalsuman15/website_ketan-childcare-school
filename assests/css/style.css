@@ -34,6 +34,22 @@
     background: #F5890D;
 }
 
+.bg-light-orange {
+    background: #fdf6ed;
+}
+
+.bg-d3f5fe {
+    background: #d3f5fe;
+}
+
+.bg-fce0ad {
+    background: #fce0ad;
+}
+
+.bg-fbc9d5 {
+    background: #fbc9d5;
+}
+
 .top-4 {
     top: 4%;
 }
@@ -62,6 +78,18 @@
 
 .top-20 {
     top: 20%;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.pb-70 {
+    padding-bottom: 70px;
+}
+
+.mt-8 {
+    margin-top: 72px;
 }
 
 .mt-10 {
@@ -138,10 +166,50 @@ h1 {
 
 /* ========================= /universal css end ========================= */
 
+/* ========================= Nav section start ========================= */
+a.active {
+    color: #EA512E !important;
+
+}
+
+a.nav-link:hover,
+a.dropdown-item:hover {
+    color: #EA512E !important;
+    font-weight: bold;
+    transition: 0.2s linear;
+}
+
+.dropdown-menu {
+    width: 280px;
+    border: none;
+    position: absolute;
+    border-radius: 0px;
+    transition: all 4s ease-in-out;
+    box-shadow: 0px 0px 15px 0px #ccc;
+    --bs-dropdown-link-active-bg: #0dfd99;
+}
+
+.dropdown-menu .dropdown-item {
+    padding: 10px 20px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.d-flex .dropdown-menu .dropdown-item {
+    font-weight: 500;
+}
+
+
+
+
+/* ========================= /Nav section end ========================= */
+
 /* ========================= Banner section start ========================= */
 .banner {
     width: 100%;
-    height: 700px;
+    height: 750px;
     background: url(../img/main-banner-bg.png);
     background-size: cover;
     background-position: center center;
@@ -193,6 +261,264 @@ h1 {
 /* ========================= /Banner section end ========================= */
 
 
+/* ========================= Who We Are section Start ========================= */
+.ptb-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.shape-5 {
+    top: 12%;
+    right: 7%;
+    animation: move5 2s linear infinite alternate;
+}
+
+.whoweare .col-md-6 span {
+    font-size: 20px;
+    color: #ea512e;
+    font-weight: 600;
+    font-family: "Sacramento", cursive;
+}
+
+.whoweare .col-md-6 h3 {
+    font-size: 45px;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.whoweare .col-md-6 ul li {
+    line-height: 45px;
+}
+
+.whoweare .col-md-6 ul li span {
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    margin-right: 8px;
+    border-radius: 50%;
+    background: #ea512e;
+    font-size: 15px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    transition: all 0.5s;
+    font-family: "Roboto", sans-serif;
+}
+
+.whoweare .col-md-6 ul li:hover span {
+    background: #F5890D;
+    transition: all 1s linear;
+}
+
+
+
+
+/* 
+.btu {
+    color: #fff;
+    display: inline-block;
+    padding: 10px 35px;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: 500;
+    background: #EA512E;
+}
+
+#btuu {
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+
+span {
+    width: 0%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    position: absolute;
+    background: #f5890d;
+    color: #fff;
+}
+
+#btuu:hover span {
+    width: 100%;
+    color: white;
+} */
+
+/* ========================= /Who We Are section end ========================= */
+
+/* ========================= popular section start ========================= */
+.popular {
+    z-index: 1;
+}
+
+.popular .col-12 span {
+    font-size: 20px;
+    color: #ea512e;
+    font-weight: 600;
+    font-family: "Sacramento", cursive;
+}
+
+.popular .col-12 h3 {
+    font-size: 45px;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.popular .card:hover img {
+    transform: rotate(4deg) scale(1.09);
+    transition: all 0.3s linear;
+}
+
+.popular .card-body .popular-content .anchor a {
+    color: #1b0238;
+    transition: all 0.7s ease-in-out;
+}
+
+.popular .card-body .popular-content .anchor a:hover,
+.popular .popular-content .price:hover {
+    color: #EA512E;
+    transition: all 0.7s ease-in;
+}
+
+.popular .popular-content .price {
+    top: 0;
+    right: 0;
+    padding: 10px;
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1;
+    position: absolute;
+    font-weight: bold;
+    background: #ea512e;
+    border-radius: 0px 0px 0px 15px;
+}
+
+.popular .popular-content .price:hover {
+    color: #fff;
+    background: #f5890d;
+}
+
+.card-body .popular-content {
+    padding: 25px 10px 0px 8px;
+}
+
+.card-body .popular-content .class-list {
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px dashed #EA512E;
+}
+
+.card-body .popular-content .class-list li {
+    list-style: none;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 15px;
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+}
+
+.card-body .popular-content .class-list li span {
+    color: #EA512E;
+    font-weight: 600;
+}
+
+.card-body .popular-content .popular-button {
+    margin-top: 25px;
+}
+
+
+
+.popular .class-shape .class-shape-1 {
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    position: absolute;
+}
+
+.popular .class-shape .class-shape-2 {
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    position: absolute;
+}
+
+/* ========================= /popular section end ========================= */
+
+/* ========================= core value section start ========================= */
+.core-value {
+    z-index: 1;
+}
+
+.core-value .col-lg-6 span {
+    font-size: 20px;
+    color: #ea512e;
+    font-weight: 600;
+    font-family: "Sacramento", cursive;
+}
+
+.core-value .col-lg-6 h3 {
+    font-size: 45px;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.core-value .col-lg-6 .number {
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    transition: 1.5s;
+    color: #1b0238;
+    margin-top: 1.5%;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 20px;
+    cursor: default;
+    outline-offset: 2px;
+    display: inline-block;
+    border: 3px solid #fff;
+    outline: 2px solid #e5e4e4;
+    font-family: "Catamaran", sans-serif;
+}
+
+.core-value .col-lg-6 .number:hover {
+    color: #fff;
+    transition: 1.5s;
+    background: #ea512e;
+    outline-color: #ea512e;
+}
+
+.core-value .value-shape .value-shape-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.core-value .value-shape .value-shape-2 {
+    position: absolute;
+    bottom: 20;
+    left: 10;
+}
+
+.core-value .value-shape .value-shape-3 {
+    position: absolute;
+    top: 0;
+    margin-top: 100px;
+    right: 0;
+    z-index: -1;
+}
+
+/* ========================= /core value section end ========================= */
+
+
 
 
 /* ========================= ANIMATION DIMENSIONS ========================= */
@@ -220,6 +546,13 @@ h1 {
     }
 }
 
+@keyframes move5 {
+    0% {}
+
+    100% {
+        right: 4%;
+    }
+}
 
 
 
