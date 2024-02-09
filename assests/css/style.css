@@ -378,8 +378,7 @@ span {
     transition: all 0.7s ease-in-out;
 }
 
-.popular .card-body .popular-content .anchor a:hover,
-.popular .popular-content .price:hover {
+.popular .colorimage:hover .anchor a {
     color: #EA512E;
     transition: all 0.7s ease-in;
 }
@@ -398,10 +397,16 @@ span {
     border-radius: 0px 0px 0px 15px;
 }
 
-.popular .popular-content .price:hover {
+.popular .colorimage:hover .price {
     color: #fff;
     background: #f5890d;
+    transition: all 0.7s ease-in;
 }
+
+/* .popular .popular-content .price:hover {
+    color: #fff;
+    background: #f5890d;
+} */
 
 .card-body .popular-content {
     padding: 25px 10px 0px 8px;
@@ -489,7 +494,7 @@ span {
     font-family: "Catamaran", sans-serif;
 }
 
-.core-value .col-lg-6 .number:hover {
+.core-value .col-lg-6 .ourcore:hover .number {
     color: #fff;
     transition: 1.5s;
     background: #ea512e;
@@ -504,8 +509,8 @@ span {
 
 .core-value .value-shape .value-shape-2 {
     position: absolute;
-    bottom: 20;
-    left: 10;
+    top: 530px;
+    left: 25px;
 }
 
 .core-value .value-shape .value-shape-3 {
@@ -518,8 +523,259 @@ span {
 
 /* ========================= /core value section end ========================= */
 
+/* ========================= Our Teacher section start ========================= */
+
+.ourteacher {
+    background: url(../img/teacher-bg.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ourteacher span {
+    font-size: 20px;
+    color: #ea512e;
+    font-weight: 600;
+    font-family: "Sacramento", cursive;
+}
+
+.ourteacher h3 {
+    font-size: 45px;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.ourteacher .social-media {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: -70px;
+    transition: all 0.4s ease-in;
+}
+
+.ourteacher .teacher-image:hover .social-media {
+    margin-bottom: 0px;
+    transition: all 0.4s ease-out;
+}
+
+.ourteacher .social-media ul li {
+    width: 30px;
+    height: 30px;
+    line-height: 32px;
+    background: #ea512e;
+    border-radius: 50%;
+    transition: 0.3s ease-out;
+}
+
+.ourteacher .social-media ul li a {
+    color: #fff;
+}
+
+.ourteacher .social-media ul li:hover {
+    background: #f5890d;
+    transition: 0.3s ease-in;
+}
+
+.ourteacher .about-teacher {
+    margin-top: 25px;
+}
+
+.ourteacher .about-teacher h3 {
+    color: #1b0238;
+    margin-bottom: 0px;
+    font-size: 30px;
+}
+
+.ourteacher .about-teacher h3+span {
+    color: #ea512e;
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: "Catamaran", sans-serif;
+}
+
+/* ========================= /Our Teacher section end ========================= */
+
+/* ========================= Testimonials section start ========================= */
+.testimonials span {
+    font-size: 20px;
+    color: #ea512e;
+    font-weight: 600;
+    font-family: "Sacramento", cursive;
+}
+
+.testimonials h3 {
+    font-size: 45px;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.testimonials .card-teacher {
+    height: auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 50%;
+    border: none;
+    background-color: #fee9ca;
+    cursor: default;
+}
+
+.testimonials .card-teacher div.icon {
+    width: 65px;
+    height: 65px;
+    margin: auto;
+    line-height: 77px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    background: #fff;
+    transition: all 0.5s linear;
+
+}
+
+.testimonials .card-teacher:hover div.icon {
+    background: #ea512e;
+    transition: all 0.5s linear;
+
+}
+
+.testimonials .card-teacher:hover div.icon .fa-quote-left {
+    color: #fff;
+    transition: all 0.5s linear;
+}
+
+.testimonials .card-teacher p {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.8;
+    color: #6b6b84;
+    cursor: pointer;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.testimonials .card-teacher .info-box h3 {
+    color: #1b0238;
+    font-family: "Catamaran", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.testimonials .card-teacher .info-box span {
+    display: block;
+    color: #ea512e;
+    font-size: 15px;
+    margin-top: 5px;
+    font-weight: 600;
+    font-family: "Catamaran", sans-serif;
+}
+
+.testimonials .nav-button button {
+    width: 50px;
+    border: none;
+    height: 50px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 10px;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: -40px;
+    margin-right: -40px;
+    background: #ea512e;
+    transition: 0.3s linear;
+}
+
+.testimonials .nav-button button:hover {
+    background: #f5890d;
+    transition: 0.3s linear;
+}
+
+/* ========================= /Testimonials section end ========================= */
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================= Fixed buynow section start ========================= */
+.right-buynow a.buy-now {
+    top: 50%;
+    z-index: 9;
+    right: 30px;
+    font-size: 15px;
+    position: fixed;
+    font-weight: 600;
+    border-radius: 30px;
+    display: inline-block;
+    animation-duration: 5s;
+    animation-name: buynowa;
+    animation-fill-mode: both;
+    transform: translateY(-50%);
+    color: #ffffff !important;
+    background-color: #82b440;
+    padding: 10px 20px 10px 20px;
+    animation-iteration-count: infinite;
+}
+
+.right-buynow a.buy-now {
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.right-buynow a.buy-now:hover {
+    background: #EA512E;
+    transition: 0.5s ease-out;
+}
+
+/* ========================= /Fixed buynow section end ========================= */
+
+/* ========================= Fixed up arrow section start ========================= */
+.homeuparrow {
+    position: fixed;
+    z-index: 9;
+    right: 20px;
+    bottom: 20px;
+    transition: .9s;
+    cursor: pointer;
+    padding: 8px 13px;
+    border-radius: 50%;
+    transform: translateY(-5%);
+    background-color: #1b0238;
+}
+
+.homeuparrow:hover {
+    background-color: #ea512e;
+    color: #ffffff;
+    transition: 0.5s;
+    transform: translateY(-5px);
+}
+
+.homeuparrow a {
+    color: #fff;
+    text-align: center;
+}
+
+/* ========================= /Fixed up arrow section end ========================= */
 
 /* ========================= ANIMATION DIMENSIONS ========================= */
 @keyframes move {
@@ -556,7 +812,33 @@ span {
 
 
 
+@keyframes buynowa {
+    0% {
+        transform: scale3d(1, 1, 1);
+    }
 
+    10%,
+    20% {
+        transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+    }
+
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    }
+
+    40%,
+    60%,
+    80% {
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    }
+
+    100% {
+        transform: scale3d(1, 1, 1);
+    }
+}
 
 
 /* ========================= RESPONSIVE DIMENSIONS ========================= */
