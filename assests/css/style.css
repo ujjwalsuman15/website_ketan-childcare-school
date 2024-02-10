@@ -164,6 +164,12 @@ h1 {
 
 }
 
+img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
 /* ========================= /universal css end ========================= */
 
 /* ========================= Nav section start ========================= */
@@ -271,6 +277,47 @@ a.dropdown-item:hover {
     top: 12%;
     right: 7%;
     animation: move5 2s linear infinite alternate;
+}
+
+.whoweare .container .boy-image {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.whoweare .container .col-md-6.boy-image::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #EA512E;
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.5s;
+    animation: border-transform-boy-image 10s linear infinite alternate forwards;
+}
+
+.whoweare .container .boy-image img {
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.whoweare .container .col-md-6.boy-image::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #f5890d;
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.5s;
+    animation: border-transform-boy-image 50s linear infinite alternate forwards;
 }
 
 .whoweare .col-md-6 span {
@@ -529,6 +576,7 @@ span {
     background: url(../img/teacher-bg.png);
     background-position: center center;
     background-size: cover;
+    z-index: -1;
     background-repeat: no-repeat;
 }
 
@@ -544,6 +592,25 @@ span {
     margin-top: 20px;
     font-weight: 700;
     margin-bottom: 20px;
+}
+
+.ourteacher .teacher-image {
+    z-index: 9;
+}
+
+.ourteacher .teacher-image::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #EA512E;
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.5s;
+    animation: border-transform-teacher-image 30s linear infinite alternate forwards;
 }
 
 .ourteacher .social-media {
@@ -698,7 +765,29 @@ span {
 
 /* ========================= /Testimonials section end ========================= */
 
+/* ========================= Tetimoniel Section Start ========================= */
 
+.slider-wrap {
+    position: relative;
+    overflow-x: hidden;
+    height: 100px;
+}
+
+.slider-main {
+    position: absolute;
+    width: 200%;
+}
+
+.item {
+    width: 400px;
+    display: inline-block;
+}
+
+.item .card {
+    transition: 0.5s ease-in-out;
+}
+
+/* ========================= /Tetimoniel Section End ========================= */
 
 
 
@@ -778,6 +867,9 @@ span {
 /* ========================= /Fixed up arrow section end ========================= */
 
 /* ========================= ANIMATION DIMENSIONS ========================= */
+
+/* for banner section animation start */
+
 @keyframes move {
     0% {}
 
@@ -802,6 +894,12 @@ span {
     }
 }
 
+/* /for banner section animation end */
+
+
+
+/* for who animation section start */
+
 @keyframes move5 {
     0% {}
 
@@ -810,7 +908,79 @@ span {
     }
 }
 
+@keyframes border-transform-boy-image {
 
+    0%,
+    100% {
+        border-radius: 63% 37% 54% 46%/55% 48% 52% 45%;
+    }
+
+    14% {
+        border-radius: 40% 60% 54% 46%/49% 60% 40% 51%;
+    }
+
+    28% {
+        border-radius: 54% 46% 38% 62%/49% 70% 30% 51%;
+    }
+
+    42% {
+        border-radius: 61% 39% 55% 45%/61% 38% 62% 39%;
+    }
+
+    56% {
+        border-radius: 61% 39% 67% 33%/70% 50% 50% 30%;
+    }
+
+    70% {
+        border-radius: 50% 50% 34% 66%/56% 68% 32% 44%;
+    }
+
+    84% {
+        border-radius: 46% 54% 50% 50%/35% 61% 39% 65%;
+
+    }
+}
+
+/* /for who animation section end */
+
+/* for teacher image animation section start */
+
+@keyframes border-transform-teacher-image {
+
+    0%,
+    100% {
+        border-radius: 63% 37% 54% 46%/55% 48% 52% 45%;
+    }
+
+    14% {
+        border-radius: 40% 60% 54% 46%/49% 60% 40% 51%;
+    }
+
+    28% {
+        border-radius: 54% 46% 38% 62%/49% 70% 30% 51%;
+    }
+
+    42% {
+        border-radius: 61% 39% 55% 45%/61% 38% 62% 39%;
+    }
+
+    56% {
+        border-radius: 61% 39% 67% 33%/70% 50% 50% 30%;
+    }
+
+    70% {
+        border-radius: 50% 50% 34% 66%/56% 68% 32% 44%;
+    }
+
+    84% {
+        border-radius: 46% 54% 50% 50%/35% 61% 39% 65%;
+    }
+}
+
+/* /for teacher image animation section end */
+
+
+/* for fix buynow animation section start */
 
 @keyframes buynowa {
     0% {
@@ -840,5 +1010,6 @@ span {
     }
 }
 
+/* /for fix buynow animation section end */
 
 /* ========================= RESPONSIVE DIMENSIONS ========================= */
