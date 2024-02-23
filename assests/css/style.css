@@ -88,6 +88,11 @@
     padding-bottom: 70px;
 }
 
+.ptb-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .mt-8 {
     margin-top: 72px;
 }
@@ -251,7 +256,7 @@ a.dropdown-item:hover {
 }
 
 .shape-3 {
-    bottom: 3.5%;
+    bottom: 12%;
     left: .7%;
     z-index: 9;
     animation: move 2s linear infinite alternate;
@@ -413,6 +418,11 @@ span {
     margin-top: 20px;
     font-weight: 700;
     margin-bottom: 20px;
+}
+
+.popular .card img {
+    transform: rotate(0deg) scale(1);
+    transition: all 0.3s linear;
 }
 
 .popular .card:hover img {
@@ -766,7 +776,7 @@ span {
 /* ========================= /Testimonials section end ========================= */
 
 /* ========================= Tetimoniel Section Start ========================= */
-
+/* 
 .slider-wrap {
     position: relative;
     overflow-x: hidden;
@@ -785,17 +795,454 @@ span {
 
 .item .card {
     transition: 0.5s ease-in-out;
-}
+} */
 
 /* ========================= /Tetimoniel Section End ========================= */
 
 
+/* ========================= Upcoming Events Section Start ========================= */
+.upcoming-event {
+    background: url(../img/event-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+
+.upcoming-event span {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "Sacramento", cursive;
+}
+
+.upcoming-event h3 {
+    color: #fff;
+    font-size: 45px;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.upcoming-event .event-background {
+    box-shadow: 0px 0px 15px 0px #444343;
+}
+
+.upcoming-event .event-content h3 {
+    margin: 0px;
+    /* margin-bottom: 15px; */
+}
+
+.upcoming-event .event-content h3 a {
+    font-size: 25px;
+    color: #1b0238;
+}
+
+.upcoming-event .event-content .event-list {
+    margin-top: 20px;
+}
+
+.upcoming-event .event-content .event-list time {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.upcoming-event .event-content .event-list address {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.upcoming-event .event-date h1 {
+    font-size: 80px;
+    color: #ea512e;
+    margin-bottom: 0;
+}
+
+.upcoming-event .event-date span {
+    font-size: 20px;
+    color: #ea512e;
+    margin-top: 10px;
+    font-weight: 500;
+    font-family: "Catamaran", sans-serif;
+}
+
+
+/* ========================= /Upcoming Events Section End ========================= */
 
 
 
+/* ========================= latest-news Section Start ========================= */
+.latest-news span {
+    font-size: 20px;
+    color: #ea512e;
+    font-weight: 600;
+    font-family: "Sacramento", cursive;
+}
+
+.latest-news h3 {
+    color: #000;
+    font-size: 45px;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.latest-news .card img {
+    transform: rotate(0deg) scale(1);
+    transition: all 0.3s linear;
+}
+
+.latest-news .card:hover img {
+    transform: rotate(4deg) scale(1.2);
+    transition: all 0.3s linear;
+}
+
+.latest-news .card-body {
+    background-color: #fdeee9;
+    padding: 30px;
+}
+
+.latest-news .card ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.latest-news .card ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #283d5e;
+    margin-right: 7.6px;
+}
+
+.latest-news .card ul li span {
+    color: #ea512e;
+    font-family: "Catamaran", sans-serif;
+    font-size: 16px;
+}
+
+.latest-news .card ul li a {
+    font-size: 16px;
+}
+
+.latest-news .card-body h3 {
+    margin: 0px;
+}
+
+.latest-news .card-body h3 a {
+    color: #1b0238;
+    font-size: 25px;
+    text-decoration: none;
+    transition: all 0.9s ease-in;
+}
+
+.latest-news .colorimage:hover h3 a {
+    color: #EA512E;
+    transition: all 0.7s ease-in;
+}
+
+/* ========================= /latest-news Section End ========================= */
 
 
 
+/* ========================= Footer Section Start ========================= */
+footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/footer-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+footer .footer-content {
+    margin-bottom: 30px;
+}
+
+footer .footer-content .logo-name {
+    margin-bottom: 25px;
+}
+
+footer .footer-content h1 a {
+    font-size: 50px;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Catamaran", sans-serif;
+}
+
+footer .footer-content p {
+    color: #fff;
+}
+
+footer .footer-content p+ul {
+    padding-left: 0;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+footer .footer-content p+ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer .footer-content p+ul li a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #ea512e;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    transition: all 0.5s ease-in;
+}
+
+footer .footer-content p+ul li a:hover {
+    background: #f5890d;
+    border-radius: 20%;
+    transform: translateY(-5px) translateX(5px);
+    transition: all 0.5s ease-in-out;
+}
+
+footer .footer-content h3 {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    font-family: "Catamaran", sans-serif;
+}
+
+footer .footer-content h3::before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 50px;
+    background: #ea512e;
+}
+
+footer .footer-content .footer-contact-info,
+footer .footer-content .footer-activities-info {
+    list-style-type: none;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+
+footer .footer-content .footer-contact-info li {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 35px;
+    display: list-item;
+    font-family: "Roboto", sans-serif;
+}
+
+footer .footer-content .footer-contact-info li .contact-icon {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    font-size: 25px;
+    color: #ea512e;
+}
+
+footer .footer-content .footer-contact-info li span {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 20px;
+}
+
+footer .footer-content .footer-contact-info li a {
+    display: inline-block;
+    color: #fff;
+    font-weight: 400;
+    position: relative;
+    font-size: 14px;
+    text-decoration: none;
+    transition: 0.5s ease-in;
+}
+
+footer .footer-content .footer-contact-info li a:hover,
+footer .footer-content .footer-activities-info li a:hover {
+    color: #ea512e;
+    transition: 0.5s ease-out;
+}
+
+footer .footer-content .footer-contact-info li a::before,
+footer .footer-content .footer-activities-info li a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 1px;
+    transition: 1s;
+    background: #ea512e;
+}
+
+footer .footer-content .footer-contact-info li a:hover::before,
+footer .footer-content .footer-activities-info li a:hover::before {
+    width: 100%;
+}
+
+footer .footer-content .footer-contact-info li:last-child,
+footer .footer-content .footer-activities-info li:last-child {
+    margin-bottom: 0px;
+}
+
+footer .footer-content .footer-contact-info li span:last-child {
+    font-size: 14px;
+}
+
+footer .footer-content .footer-activities-info li {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 18px;
+    position: relative;
+    display: list-item;
+    font-family: "Roboto", sans-serif;
+}
+
+footer .footer-content .footer-activities-info li a {
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+    position: relative;
+    font-size: 16px;
+    text-decoration: none;
+    transition: 0.5s ease-in;
+}
+
+footer .footer-content .footer-activities-info li a:hover {
+    color: #ea512e;
+    transition: 0.5s ease-out;
+}
+
+footer .footer-content .footer-activities-info li a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 1px;
+    transition: 1s;
+    background: #ea512e;
+}
+
+footer .footer-content .footer-activities-info li a:hover::before {
+    width: 100%;
+}
+
+footer .footer-content .footer-activities-info li:last-child {
+    margin-bottom: 0px;
+}
+
+footer .footer-content .footer-photo-gallery {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    margin-left: -2px;
+    margin-right: -2px;
+    margin-top: -5px;
+}
+
+footer .footer-content .footer-photo-gallery li {
+    text-align: center;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 5px;
+}
+
+footer .footer-content .footer-photo-gallery li .box {
+    position: relative;
+    z-index: 9;
+    overflow: hidden;
+}
+
+footer .footer-content .footer-photo-gallery li .box:hover::before {
+    opacity: 0.5;
+    visibility: visible;
+}
+
+footer .footer-content .footer-photo-gallery li .box::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: #ea512e;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+footer .footer-content .footer-photo-gallery li .box img {
+    height: auto;
+    transition: 0.5s;
+    max-width: 100%;
+    display: inline-block;
+    width: 79px;
+    vertical-align: middle;
+}
+
+footer .footer-content .footer-photo-gallery li .box:hover img {
+    transform: scale(1.1);
+}
+
+footer .footer-content .footer-photo-gallery li .box .link-btn {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 3;
+}
+
+footer .footer-content .footer-photo-gallery li .box a:hover {
+    color: #ea512e;
+    text-decoration: none;
+}
+
+/* ========================= /Footer Section End ========================= */
+
+/* ========================= copyright Section start ========================= */
+div.copyright {
+    background: #091629;
+}
+
+div.copyright .copyright-content {
+    text-align: center;
+}
+
+div.copyright .copyright-content p {
+    color: #fff;
+    margin: 0px;
+}
+
+div.copyright .copyright-content p a {
+    font-weight: 600;
+    color: #ea512e;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* ========================= /copyright Section End ========================= */
 
 
 
