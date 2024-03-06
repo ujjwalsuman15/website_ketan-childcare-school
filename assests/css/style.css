@@ -3,8 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     border: none;
     font-family: "Catamaran", sans-serif;
@@ -675,22 +675,23 @@ span {
 
 /* ========================= /Our Teacher section end ========================= */
 
+
 /* ========================= Testimonials section start ========================= */
-.testimonials span {
+.testimonial span {
     font-size: 20px;
     color: #ea512e;
     font-weight: 600;
     font-family: "Sacramento", cursive;
 }
 
-.testimonials h3 {
+.testimonial h3 {
     font-size: 45px;
     margin-top: 20px;
     font-weight: 700;
     margin-bottom: 20px;
 }
 
-.testimonials .card-teacher {
+.testimonial .card-teacher {
     height: auto;
     padding: 30px;
     text-align: center;
@@ -700,7 +701,7 @@ span {
     cursor: default;
 }
 
-.testimonials .card-teacher div.icon {
+.testimonial .card-teacher div.icon {
     width: 65px;
     height: 65px;
     margin: auto;
@@ -712,18 +713,18 @@ span {
 
 }
 
-.testimonials .card-teacher:hover div.icon {
+.testimonial .card-teacher:hover div.icon {
     background: #ea512e;
     transition: all 0.5s linear;
 
 }
 
-.testimonials .card-teacher:hover div.icon .fa-quote-left {
+.testimonial .card-teacher:hover div.icon .fa-quote-left {
     color: #fff;
     transition: all 0.5s linear;
 }
 
-.testimonials .card-teacher p {
+.testimonial .card-teacher p {
     margin-bottom: 0;
     margin-top: 0;
     font-size: 15px;
@@ -735,7 +736,7 @@ span {
     font-family: "Roboto", sans-serif;
 }
 
-.testimonials .card-teacher .info-box h3 {
+.testimonial .card-teacher .info-box h3 {
     color: #1b0238;
     font-family: "Catamaran", sans-serif;
     font-weight: bold;
@@ -743,7 +744,7 @@ span {
     margin-bottom: 0;
 }
 
-.testimonials .card-teacher .info-box span {
+.testimonial .card-teacher .info-box span {
     display: block;
     color: #ea512e;
     font-size: 15px;
@@ -752,52 +753,33 @@ span {
     font-family: "Catamaran", sans-serif;
 }
 
-.testimonials .nav-button button {
-    width: 50px;
-    border: none;
-    height: 50px;
+.testimonial button {
     color: #fff;
-    font-size: 40px;
-    font-weight: 600;
-    line-height: 10px;
-    text-align: center;
+    transition: 0.6s;
     border-radius: 50%;
-    margin-left: -40px;
-    margin-right: -40px;
     background: #ea512e;
-    transition: 0.3s linear;
 }
 
-.testimonials .nav-button button:hover {
+.testimonial button:hover {
+    transition: 0.6s;
     background: #f5890d;
-    transition: 0.3s linear;
+}
+
+.text-fa {
+    font-family: 'Roboto', sans-serif, FontAwesome;
+}
+
+
+.testimonial .row>* {
+    padding-left: 0px;
+}
+
+.slider-main {
+    transition: 0.6s;
 }
 
 /* ========================= /Testimonials section end ========================= */
 
-/* ========================= Tetimoniel Section Start ========================= */
-/* 
-.slider-wrap {
-    position: relative;
-    overflow-x: hidden;
-    height: 100px;
-}
-
-.slider-main {
-    position: absolute;
-    width: 200%;
-}
-
-.item {
-    width: 400px;
-    display: inline-block;
-}
-
-.item .card {
-    transition: 0.5s ease-in-out;
-} */
-
-/* ========================= /Tetimoniel Section End ========================= */
 
 
 /* ========================= Upcoming Events Section Start ========================= */
@@ -832,7 +814,6 @@ span {
 
 .upcoming-event .event-content h3 {
     margin: 0px;
-    /* margin-bottom: 15px; */
 }
 
 .upcoming-event .event-content h3 a {
