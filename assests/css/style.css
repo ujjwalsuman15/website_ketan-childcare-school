@@ -769,13 +769,34 @@ span {
     font-family: 'Roboto', sans-serif, FontAwesome;
 }
 
-
 .testimonial .row>* {
     padding-left: 0px;
 }
 
+.prev,
+.next {
+    visibility: hidden;
+    transition: 0.6s;
+}
+
+.slides:hover .prev {
+    visibility: visible;
+}
+
+.slides:hover .next {
+    visibility: visible;
+}
+
 .slider-main {
     transition: 0.6s;
+}
+
+.testimonial:hover .prev {
+    visibility: visible;
+}
+
+.testimonial:hover .next {
+    visibility: visible;
 }
 
 /* ========================= /Testimonials section end ========================= */
