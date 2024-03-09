@@ -1,0 +1,11 @@
+/* ======================================= ABOUT SECTION CSS START ======================================= */
+.about-banner {
+    width: 100%;
+    height: 740px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/aboutimg/page-banner-1.png) fixed no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+/* ======================================= /ABOUT SECTION CSS END ======================================= */

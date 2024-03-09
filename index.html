@@ -44,7 +44,7 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li>
-                                    <a class="dropdown-item fw-bold" href="javascript:void()">
+                                    <a class="dropdown-item fw-bold" href="about.html">
                                         About
                                     </a>
                                 </li>
@@ -834,10 +834,10 @@
                 </div>
             </div>
             <div class="nav-button justify-content-between d-flex buttons">
-                <button class="nextbtn text-fa px-3 py-1 fs-3 position-absolute top-50 start-0 prev ms-5 ">
+                <button class="nextbtn text-fa px-3 py-1 fs-3 position-absolute top-50 start-0 prev ms-5 " style="z-index: 9;">
                     &#xf053;
                 </button>
-                <button class="nextbtn text-fa px-3 py-1 fs-3 position-absolute top-50 end-0 next me-5 ">
+                <button class="nextbtn text-fa px-3 py-1 fs-3 position-absolute top-50 end-0 next me-5 " style="z-index: 9;">
                     &#xf054;
                 </button>
             </div>
@@ -1388,12 +1388,7 @@
     <script src="./assets/js/script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
     <script>
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 3,
@@ -1421,24 +1416,8 @@
                 }
             }
         });
-
-        function myFunction() {
-            var element = document.body;
-            element.classList.toggle("dark-mode");
-        }
-
-        let myButton = document.getElementById("myBtn");
-        window.onscroll = function () { scrollFunction() };
-        function scrollFunction() {
-            if (document.documentElement.scrollTop > 100) {
-                myButton.style.display = "block";
-            }
-            else { myButton.style.display = "none"; }
-        }
-        function topFunction() {
-            document.documentElement.scrollTop = 0;
-        }
     </script>
+    
     <!-- /script section end -->
 </body>
 
