@@ -1,4 +1,3 @@
-
 /* ========================= universal css start ========================= */
 .text-orange {
     color: #ea512e;
@@ -10,6 +9,10 @@
 
 .text-silver {
     color: #6b6b84;
+}
+
+.bg-partner {
+    background: #fdf9f4;
 }
 
 .bg-orange {
@@ -24,6 +27,10 @@
     background: #fdf6ed;
 }
 
+.bg-light-red-orange {
+    background: #fef3e6;
+}
+
 .bg-d3f5fe {
     background: #d3f5fe;
 }
@@ -34,6 +41,10 @@
 
 .bg-fbc9d5 {
     background: #fbc9d5;
+}
+
+p:last-child {
+    margin-bottom: 0;
 }
 
 .top-4 {
@@ -74,13 +85,27 @@
     padding-bottom: 70px;
 }
 
+.ptb-200 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
 .ptb-30 {
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
+
 .mt-8 {
     margin-top: 72px;
+}
+
+.mt-75 {
+    margin-top: 75px;
+}
+
+.mt-80 {
+    margin-top: 80px;
 }
 
 .mt-10 {
@@ -124,20 +149,75 @@
 }
 
 .btn {
-    color: #fff;
     display: inline-block;
-    padding: 10px 35px;
-    font-size: 16px;
+    padding: 12px 35px;
+    background-color: #ea512e;
+    color: #fff !important;
     border-radius: 10px;
+    font-size: 16px;
     font-weight: 500;
-    transition: 0.5s ease;
+    transition: 0.5s;
     position: relative;
-    background: #EA512E;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.btn::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #f5890d;
+    z-index: -1;
+    transition: 0.5s;
+    border-radius: 10px;
 }
 
 .btn:hover {
     color: #fff;
+    background: #ea512e;
+    border: 1px solid #F5890D;
+}
+
+.btn:hover::before {
+    height: 100%;
+}
+
+.btn-2 {
+    display: inline-block;
+    padding: 12px 35px;
+    background-color: #f5890d;
+    color: #fff !important;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.5s;
+    position: relative;
+    z-index: 1;
+}
+
+.btn-2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #ea512e;
+    z-index: -1;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.btn-2:hover {
+    color: #fff;
     background: #f5890d;
+}
+
+.btn-2:hover::before {
+    height: 100%;
 }
 
 p {
