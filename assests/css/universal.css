@@ -60,6 +60,10 @@ p:last-child {
     bottom: 4%;
 }
 
+.bottom-10 {
+    bottom: 15%;
+}
+
 .bottom-right-4 {
     bottom: 0%;
     right: 4%;
@@ -81,8 +85,16 @@ p:last-child {
     padding-top: 100px;
 }
 
+.pb-30 {
+    padding-bottom: 30px;
+}
+
 .pb-70 {
     padding-bottom: 70px;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
 }
 
 .ptb-200 {
@@ -146,6 +158,23 @@ p:last-child {
 
 .mb-20 {
     margin-bottom: 20px;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #1b0238;
+    font-family: "Catamaran", sans-serif;
+    font-weight: bold;
 }
 
 .btn {

@@ -1,0 +1,170 @@
+/* ======================================= GALLERY SECTION CSS START ======================================= */
+
+/* ========================= Banner section start ========================= */
+a {
+    text-decoration: none;
+    transition: 0.5s;
+    color: #1b0238;
+}
+
+.enroll-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/enrollimg/page-banner-1.png) no-repeat fixed;
+    background-size: 100%;
+}
+
+.enroll-banner h2 {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 1;
+}
+
+.enroll-banner ul li:first-child {
+    margin-left: 0;
+}
+
+.enroll-banner ul li {
+    display: inline-block;
+    margin-left: 10px;
+    color: #ea512e;
+    position: relative;
+}
+
+.enroll-banner ul li a {
+    display: block;
+    color: #ffffff;
+}
+
+.enroll-banner .enroll::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: -6px;
+    width: 1px;
+    height: 13px;
+    background-color: #ea512e;
+}
+
+/* ========================= /Banner section end ========================= */
+
+/* ========================= Quote section start ========================= */
+.enroll-quote-area .enroll-quote-image {
+    background-image: url(../img/enrollimg/quote.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.enroll-quote-area .enroll-quote-item {
+    background-color: #ffffff;
+    box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
+    padding: 50px;
+}
+
+.enroll-quote-area .enroll-quote-item .content {
+    margin-bottom: 30px;
+}
+
+.enroll-quote-area .enroll-quote-item .content span {
+    font-size: 20px;
+    color: #ea512e;
+    font-weight: 600;
+    font-family: "Sacramento", cursive;
+}
+
+.enroll-quote-area .enroll-quote-item .content h3 {
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.enroll-quote-area .enroll-quote-item form .form-group {
+    margin-bottom: 15px;
+}
+
+.enroll-quote-area .enroll-quote-item form .form-control {
+    height: 70px;
+    color: #1b0238;
+    box-shadow: unset !important;
+    border: 1px solid #eeeeee;
+    background-color: transparent;
+    transition: 0.5s;
+    border-radius: 10px;
+    padding: 0 0 0 15px;
+    font-weight: 500;
+}
+
+.enroll-quote-area .enroll-quote-item form .form-control:focus {
+    border-color: #ea512e;
+    background-color: transparent;
+}
+
+/* ========================= /Quote section end ========================= */
+
+/* ========================= Enrollment section start ========================= */
+.entollment-area .enrollment-content {
+    background-color: #ffffff;
+    box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
+    padding: 30px;
+}
+
+.entollment-area .enrollment-content .content {
+    margin-bottom: 25px;
+}
+
+.entollment-area .enrollment-content .content h3 {
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.entollment-area .enroll-expand {
+    margin-bottom: 10px;
+}
+
+.entollment-area .enroll-expand .enroll-expand-item .enroll-expand-title {
+    padding: 25px 40px 20px 20px;
+    color: #1b0238;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    display: block;
+    border: 1px solid #f3f3f3;
+    background-color: transparent;
+}
+
+.entollment-area .enroll-expand .enroll-expand-item .enroll-expand-title .i {
+    position: absolute;
+    right: 20px;
+    transform: translateY(-50%);
+    top: 50%;
+    font-size: 20px;
+}
+
+.entollment-area .enroll-expand .enroll-expand-content {
+    position: relative;
+    padding: 18px 20px;
+    color: #6b6b84;
+    font-size: 15px;
+    display: block;
+    border: 1px solid #f3f3f3;
+    border-top: 1px solid #f5890d;
+    background-color: transparent;
+}
+
+.entollment-area .enroll-expand .enroll-expand-content:last-child {
+    margin-bottom: 0;
+}
+
+.enrollment-image {
+    background-image: url(../img/enrollimg/enrollment.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+/* ========================= /Enrollment section end ========================= */
+
+/* ======================================= /GALLERY SECTION CSS END ======================================= */

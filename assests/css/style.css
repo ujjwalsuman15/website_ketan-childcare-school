@@ -6,6 +6,26 @@
 @import url(./about.css);
 /* ========================= /ABOUT SECTION CSS END ========================= */
 
+/* ========================= TEACHER SECTION CSS START ========================= */
+@import url(./teacher.css);
+/* ========================= /TEACHER SECTION CSS END ========================= */
+
+/* ========================= EVENT SECTION CSS START ========================= */
+@import url(./event.css);
+/* ========================= /EVENT SECTION CSS END ========================= */
+
+/* ========================= CLASS SECTION CSS START ========================= */
+@import url(./class.css);
+/* ========================= /CLASS SECTION CSS END ========================= */
+
+/* ========================= BLOG SECTION CSS START ========================= */
+@import url(./blog.css);
+/* ========================= /BLOG SECTION CSS END ========================= */
+
+/* ========================= CONTACT SECTION CSS START ========================= */
+@import url(./contact.css);
+/* ========================= /CONTACT SECTION CSS END ========================= */
+
 /* ========================= UNIVERSAL CSS START ========================= */
 @import url(./universal.css);
 /* ========================= /UNIVERSAL CSS END ========================= */
@@ -30,6 +50,77 @@
 @import url(./responsive.css);
 /* ======================== /RESPONSIVE DIMENSIONS END ========================= */
 
+/* ======================== teacher-details START ========================= */
+@import url(./teacher-details.css);
+/* ======================== /teacher-details END ========================= */
+
+/* ======================== event-details START ========================= */
+@import url(./event-details.css);
+/* ======================== /event-details END ========================= */
+
+/* ======================== class-details START ========================= */
+@import url(./class-details.css);
+/* ======================== /class-details END ========================= */
+
+/* ======================== blog-details START ========================= */
+@import url(./blog-details.css);
+/* ======================== /blog-details END ========================= */
+
+/* ======================== gallery section START ========================= */
+@import url(./gallery.css);
+/* ======================== /gallery section END ========================= */
+
+/* ======================== pricing section START ========================= */
+@import url(./pricing.css);
+/* ======================== /pricing section END ========================= */
+
+/* ======================== howtoapply section START ========================= */
+@import url(./howtoapply.css);
+/* ======================== /howtoapply section END ========================= */
+
+/* ======================== programs section START ========================= */
+@import url(./programs.css);
+/* ======================== /programs section END ========================= */
+
+/* ======================== enroll section START ========================= */
+@import url(./enroll.css);
+/* ======================== /enroll section END ========================= */
+
+/* ======================== timetable section START ========================= */
+@import url(./timetable.css);
+/* ======================== /timetable section END ========================= */
+
+/* ======================== faq section START ========================= */
+@import url(./faq.css);
+/* ======================== /faq section END ========================= */
+
+/* ======================== account section START ========================= */
+/* ======================== login section START ========================= */
+@import url(./login.css);
+/* ======================== /login section END ========================= */
+
+/* ======================== register section START ========================= */
+@import url(./register.css);
+/* ======================== /register section END ========================= */
+/* ======================== /account section END ========================= */
+
+/* ======================== errorpage section START ========================= */
+@import url(./errorpage.css);
+/* ======================== /errorpage section END ========================= */
+
+/* ======================== termsofservice section START ========================= */
+@import url(./termsofservice.css);
+/* ======================== /termsofservice section END ========================= */
+
+/* ======================== privacypolicy section START ========================= */
+@import url(./privacypolicy.css);
+/* ======================== /privacypolicy section END ========================= */
+
+/* ======================== comingsoon section START ========================= */
+@import url(./comingsoon.css);
+/* ======================== /comingsoon section END ========================= */
+
+
 
 * {
     margin: 0px;
@@ -51,23 +142,6 @@
     background: url(../img/main-banner-bg.png);
     background-size: cover;
     background-position: center center;
-}
-
-.btn-2 {
-    color: #fff;
-    display: inline-block;
-    padding: 10px 35px;
-    font-size: 16px;
-    border-radius: 10px;
-    font-weight: 500;
-    transition: 0.5s ease;
-    position: relative;
-    background: #F5890D;
-}
-
-.btn-2:hover {
-    color: #fff;
-    background: #EA512E;
 }
 
 .shape-1 {
