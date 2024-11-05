@@ -1,8 +1,11 @@
-
 /* ========================= Nav section start ========================= */
 a.active {
     color: #EA512E !important;
 
+}
+
+.dropdown-item.active {
+    background: none;
 }
 
 a.nav-link:hover,

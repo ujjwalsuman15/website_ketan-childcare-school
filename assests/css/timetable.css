@@ -1,5 +1,4 @@
-
-/* ======================================= GALLERY SECTION CSS START ======================================= */
+/* ======================================= TIME-TABLE SECTION CSS START ======================================= */
 
 /* ========================= Banner section start ========================= */
 a {
@@ -8,34 +7,34 @@ a {
     color: #1b0238;
 }
 
-.about-banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/aboutimg/page-banner-1.png) no-repeat fixed;
+.timetable-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/timetableimg/page-banner-2.png) no-repeat fixed;
     background-size: 100%;
 }
 
-.about-banner h2 {
+.timetable-banner h2 {
     margin-bottom: 20px;
     font-size: 45px;
     line-height: 1;
 }
 
-.about-banner ul li:first-child {
+.timetable-banner ul li:first-child {
     margin-left: 0;
 }
 
-.about-banner ul li {
+.timetable-banner ul li {
     display: inline-block;
     margin-left: 10px;
     color: #ea512e;
     position: relative;
 }
 
-.about-banner ul li a {
+.timetable-banner ul li a {
     display: block;
     color: #ffffff;
 }
 
-.about-banner .about::before {
+.timetable-banner .timetable::before {
     content: "";
     position: absolute;
     top: 6px;
@@ -47,7 +46,38 @@ a {
 
 /* ========================= /Banner section end ========================= */
 
-/* ======================================= /GALLERY SECTION CSS END ======================================= */
+/* ========================= Routine section start ========================= */
+.routine-area .routine.table-responsive {
+    overflow-x: auto;
+}
 
+.routine-area .routine table thead th {
+    border: 1px solid #f0f0f0;
+    color: #1b0238;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 30px 25px;
+}
 
+.routine-area .routine table tbody tr th {
+    border: 1px solid #f0f0f0;
+    font-weight: 600;
+    color: #ea512e;
+    overflow-x: auto;
+    font-family: "Roboto", sans-serif;
+    padding: 30px 25px;
+    font-size: 18px;
+}
 
+.routine-area .routine table tbody tr th span {
+    display: block;
+    font-size: 14px;
+    margin-top: 12px;
+    font-weight: 400;
+    color: #6b6b84;
+}
+
+/* ========================= /Routine section end ========================= */
+
+/* ======================================= /TIME-TABLE SECTION CSS END ======================================= */
