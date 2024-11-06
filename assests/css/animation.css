@@ -1,6 +1,23 @@
 /* ========================= ANIMATION DIMENSIONS START========================= */
 /* ======================================= INDEX SECTION animation START ======================================= */
 @import url(./about.css);
+@import url(./header.css);
+
+
+/* for header section animation start */
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, -100%, 0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+
+/* for header section animation end */
 /* for banner section animation start */
 
 @keyframes move {

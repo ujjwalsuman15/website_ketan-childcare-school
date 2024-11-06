@@ -1,4 +1,16 @@
 /* ========================= Nav section start ========================= */
+
+.navbar.for-top-fix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
+    background-color: #ffffff !important;
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+}
+
 a.active {
     color: #EA512E !important;
 
