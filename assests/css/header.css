@@ -50,7 +50,21 @@ a.dropdown-item:hover {
     font-weight: 500;
 }
 
+#navbarDropdown2 {
+    position: relative;
+    padding: 10px;
+}
 
+#acc-log-reg {
+    display: none;
+    position: absolute;
+    left: 280px;
+    top: 0;
+}
+
+#navbarDropdown2:hover #acc-log-reg {
+    display: block;
+}
 
 
 /* ========================= /Nav section end ========================= */
