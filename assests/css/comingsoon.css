@@ -8,34 +8,34 @@ a {
     color: #1b0238;
 }
 
-.about-banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/aboutimg/page-banner-1.png) no-repeat fixed;
+.coming-soon-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/coming-soonimg/page-banner-1.png) no-repeat fixed;
     background-size: 100%;
 }
 
-.about-banner h2 {
+.coming-soon-banner h2 {
     margin-bottom: 20px;
     font-size: 45px;
     line-height: 1;
 }
 
-.about-banner ul li:first-child {
+.coming-soon-banner ul li:first-child {
     margin-left: 0;
 }
 
-.about-banner ul li {
+.coming-soon-banner ul li {
     display: inline-block;
     margin-left: 10px;
     color: #ea512e;
     position: relative;
 }
 
-.about-banner ul li a {
+.coming-soon-banner ul li a {
     display: block;
     color: #ffffff;
 }
 
-.about-banner .about::before {
+.coming-soon-banner .coming-soon::before {
     content: "";
     position: absolute;
     top: 6px;

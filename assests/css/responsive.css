@@ -23,6 +23,10 @@
     /* /core-value section end */
 
     /* ======================== HOME RESPONSIVE SECTION END ========================= */
+    /* ======================== ABOUT RESPONSIVE SECTION START ========================= */
+
+    /* ======================== /ABOUT RESPONSIVE SECTION END ========================= */
+
 }
 
 /* =========================================== min width 1200px end =========================================== */
@@ -100,6 +104,20 @@
 
     /* /testimonial section end */
     /* ======================== HOME RESPONSIVE SECTION END ========================= */
+    /* ======================== ABOUT RESPONSIVE SECTION START ========================= */
+    /* who-we-are section start */
+
+    /* /who-we-are section end */
+    /* courses section start */
+
+    .courses.pt-100.pb-70 {
+        overflow: hidden;
+    }
+
+    /* /courses section end */
+
+    /* ======================== /ABOUT RESPONSIVE SECTION END ========================= */
+
 
     .mt-200 {
         margin-top: 50px;
@@ -150,9 +168,29 @@
         margin-top: 110px;
     }
 
+    .banner .container-fluid .cloud {
+        display: none;
+    }
+
+    .banner.position-relative {
+        background-image: unset;
+        height: 100%;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        background-color: #e7ddf4;
+    }
+
+    .banner .container-fluid .shape-3,
+    .banner .container-fluid .shape-4 {
+        display: none;
+    }
+
     /* /banner section end */
 
     /* Who We Are section start */
+    .whoweare .container-fluid .shape-5 {
+        display: none;
+    }
 
     /* /Who We Are section end */
 
@@ -186,6 +224,98 @@
 
     /* /footer section end */
     /* ======================== HOME RESPONSIVE SECTION END ========================= */
+    /* ======================== ABOUT RESPONSIVE SECTION START ========================= */
+    /* who-we-are section start */
+
+    .who-we-are.ptb-100.bg-white {
+        padding: 70px 0px 70px 0px;
+    }
+
+    /* /who-we-are  section end */
+    /* expert-teacher  section start */
+    .expert-teacher.pt-100.pb-70 {
+        padding: 70px 0px 50px 0px;
+    }
+
+    /* /expert-teacher  section end */
+    /* courses  section start */
+    .courses.pt-100.pb-70 {
+        padding: 70px 0px 50px 0px;
+    }
+
+    .courses .courses-image .courses-image-shape {
+        display: none;
+    }
+
+    /* /courses  section end */
+    /* testimonial section start */
+    .testimonial.ptb-100.position-relative.bg-light-red-orange {
+        padding: 70px 0px 70px 0px;
+    }
+
+    .testimonial.ptb-100.position-relative.bg-light-red-orange .container .row.mb-5 {
+        margin-bottom: 0 !important;
+    }
+
+    .testimonial.ptb-100.position-relative.bg-light-red-orange .container .row h3 {
+        font-size: 35px;
+    }
+
+    .testimonial .feedback-item .feedback-content .fst-italic {
+        font-size: 14px !important;
+        text-align: center;
+    }
+
+    .testimonial .feedback-item .feedback-info {
+        text-align: center;
+    }
+
+    .testimonial .feedback-item .feedback-image {
+        margin-bottom: 30px;
+    }
+
+    /* /testimonial  section end */
+    /* pricing section start */
+    .pricing.ptb-100 {
+        padding: 70px 0px 70px 0px;
+    }
+
+    .pricing.ptb-100 span {
+        font-size: 18px;
+    }
+
+    .pricing.ptb-100 h3 {
+        font-size: 35px;
+    }
+
+    /* /pricing  section end */
+    /* newsletter section start */
+    .newsletter.ptb-100 {
+        padding: 70px 0px 70px 0px;
+    }
+
+    .newsletter.ptb-100 .newsletter-shape {
+        display: none;
+    }
+
+    .newsletter.ptb-100 .newsletter-content {
+        margin-bottom: 20px;
+    }
+
+    /* /newsletter  section end */
+    /* partner section start */
+
+    .partner.ptb-100.bg-partner {
+        padding: 70px 0px 70px 0px;
+    }
+
+    .partner.ptb-100.bg-partner marquee img {
+        width: 20%;
+    }
+
+    /* /partner  section end */
+    /* ======================== /ABOUT RESPONSIVE SECTION END ========================= */
+
 
 }
 
@@ -198,19 +328,11 @@
 
     .banner .container-fluid .shape-1,
     .banner .container-fluid .shape-2,
-    .banner .container-fluid .shape-3,
-    .banner .container-fluid .shape-4,
     .banner .container-fluid .shape-5 {
         display: none;
     }
 
-    .banner.position-relative {
-        background-image: unset;
-        height: 100%;
-        padding-top: 70px;
-        padding-bottom: 70px;
-        background-color: #e7ddf4;
-    }
+
 
     .banner .container .banner-play {
         margin-top: 0;
@@ -221,16 +343,12 @@
         font-size: 45px;
     }
 
-    .banner .container-fluid .cloud {
-        display: none;
-    }
+
 
     /* /banner section end */
 
     /* Who We Are section start */
-    .whoweare .container-fluid .shape-5 {
-        display: none;
-    }
+
 
     .whoweare.ptb-100 {
         padding: 70px 0px 70px 0px;
@@ -419,11 +537,12 @@
     }
 
     footer .footer-content .footer-contact-info li .contact-icon {
-        left: 30%;
+        left: 15%;
         top: 10%;
     }
 
     footer .footer-content .footer-contact-info li {
+        padding-left: 0;
         font-size: 25px;
     }
 
@@ -438,6 +557,129 @@
 
     /* /footer section end */
     /* ======================== /HOME RESPONSIVE SECTION END ========================= */
+    /* ======================== ABOUT RESPONSIVE SECTION START ========================= */
+
+    /* banner section start */
+    .about-banner.ptb-200 {
+        padding: 70px 0px 70px 0px;
+    }
+
+    .about-banner h2 {
+        font-size: 35px;
+    }
+
+    /* /banner section end */
+
+    /* who-we-are section start */
+
+    .who-we-are.ptb-100.bg-white {
+        padding: 50px 0px 50px 0px;
+    }
+
+    .who-we-are .who-we-are-content span {
+        font-size: 18px;
+    }
+
+    .who-we-are .who-we-are-content h3 {
+        font-size: 25px;
+    }
+
+    /* /who-we-are  section end */
+    /* fun-fact-area  section start */
+    .fun-fact-area.pt-100.pb-70 {
+        padding: 50px 0px 20px 0px;
+    }
+
+    .fun-fact-area .first-fun-fact {
+        padding: 35px;
+    }
+
+    .fun-fact-area .first-fun-fact h3 {
+        font-size: 35px;
+    }
+
+    /* /fun-fact-area  section end */
+    /* expert-teacher  section start */
+
+    .expert-teacher.pt-100.pb-70 .expert-teacher-content {
+        text-align: center;
+    }
+
+    /* /expert-teacher  section end */
+    /* quote-area  section start */
+
+    .quote-area.ptb-100 {
+        padding: 50px 0px 50px 0px;
+    }
+
+    .quote-area .quote-item {
+        padding: 20px;
+    }
+
+    .quote-area .quote-item .content h3 {
+        font-size: 22px;
+    }
+
+    /* /quote-area  section end */
+    /* courses  section start */
+
+    .courses.pt-100.pb-70 {
+        padding: 50px 0px 20px 0px;
+    }
+
+    .courses.pt-100.pb-70 .container .row .col-lg-6 h3 {
+        font-size: 25px;
+    }
+
+    .courses.pt-100.pb-70 .container .row .col-lg-6 {
+        margin-bottom: 30px;
+    }
+
+    /* /courses  section end */
+    /* testimonial section start */
+    .testimonial.ptb-100.position-relative.bg-light-red-orange .container .row h3 {
+        font-size: 28px;
+    }
+
+    /* /testimonial  section end */
+    /* pricing section start */
+    .pricing.ptb-100 {
+        padding: 50px 0px 50px 0px;
+    }
+
+    .pricing.ptb-100 h3 {
+        font-size: 28px;
+    }
+
+    /* /pricing  section end */
+    /* newsletter section start */
+    .newsletter.ptb-100 {
+        padding: 50px 0px 50px 0px;
+    }
+
+    .newsletter.ptb-100 .newsletter-content h2 {
+        font-size: 22px;
+    }
+
+    .newsletter .newsletter-form button {
+        position: relative;
+        margin-top: 10px;
+    }
+
+    /* /newsletter  section end */
+    /* partner section start */
+
+    .partner.ptb-100.bg-partner {
+        padding: 50px 0px 50px 0px;
+    }
+
+    .partner.ptb-100.bg-partner marquee img {
+        max-width: 100px;
+    }
+
+    /* /partner  section end */
+    /* ======================== /ABOUT RESPONSIVE SECTION END ========================= */
+
 
 }
 
@@ -603,13 +845,81 @@
     /* /latest-news section end */
 
     /* footer section start */
-    /* footer .footer-content p+ul li {
-        margin-right: 10px;
-    } */
+
+    footer .footer-content .footer-contact-info li .contact-icon {
+        left: 30%;
+        top: 10%;
+    }
+
+    footer .footer-content .footer-photo-gallery li .box img {
+        width: max-content;
+    }
 
     /* /footer section end */
 
     /* ======================== /HOME RESPONSIVE SECTION END ========================= */
+
+    /* ======================== ABOUT RESPONSIVE SECTION START ========================= */
+    /* banner section start */
+
+
+    /* /banner section end */
+    /* who-we-are section start */
+
+    .who-we-are .who-we-are-content span,
+    .who-we-are .who-we-are-content h3 {
+        text-align: center;
+        display: block;
+    }
+
+    .who-we-are .container .row .col-lg-6 img {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .who-we-are .who-we-are-content ul.list-unstyled.row {
+        display: block;
+    }
+
+    .who-we-are .who-we-are-content ul.list-unstyled.row .col-6 {
+        width: 100%;
+    }
+
+    .who-we-are .who-we-are-content div {
+        text-align: center;
+    }
+
+    /* /who-we-are  section end */
+    /* quote-area  section start */
+    .quote-area .quote-item .content {
+        text-align: center;
+    }
+
+    /* /quote-area  section end */
+    /* courses  section start */
+    .courses.pt-100.pb-70 .container .row .col-lg-6 span,
+    .courses.pt-100.pb-70 .container .row .col-lg-6 h3 {
+        text-align: center;
+        display: block;
+    }
+
+    .courses.pt-100.pb-70 .container .row .col-lg-6 .mt-4 {
+        text-align: center;
+    }
+
+    /* /courses  section end */
+    /* testimonial section start */
+
+    /* /testimonial  section end */
+    /* pricing section start */
+
+    /* /pricing  section end */
+    /* newsletter section start */
+
+
+    /* /newsletter  section end */
+    /* ======================== /ABOUT RESPONSIVE SECTION END ========================= */
+
 }
 
 /* ============================================ max width 576px end ============================================ */
@@ -676,6 +986,10 @@
     /* /core-value section end */
 
     /* ======================== /HOME RESPONSIVE SECTION END ========================= */
+    /* ======================== ABOUT RESPONSIVE SECTION START ========================= */
+
+    /* ======================== /ABOUT RESPONSIVE SECTION END ========================= */
+
 }
 
 /* ================================= min width 0px and  max width 576px end ================================= */
